@@ -24,8 +24,6 @@ docker run \
 |-------------------------|--------------------------------------------------------------------------|
 | `DOCKER_PRUNE_SCHEDULE` | **Cron** schedule for auto docker system prune (`37 4 2 * *` by default) |
 
-
 ---
 
 **Made with ❤️ by [Scalified](http://www.scalified.com)**
-

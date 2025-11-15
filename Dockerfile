@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM debian:trixie-slim
 
 LABEL maintainer="Scalified <scalified@gmail.com>"
 
@@ -13,7 +13,7 @@ RUN apt update && \
         git \
         gnupg \
         lsb-release \
-        libicu72 \
+        libicu76 \
         supervisor && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*
